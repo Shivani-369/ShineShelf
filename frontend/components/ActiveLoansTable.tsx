@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 
 interface Loan {
     id: number;
@@ -39,7 +39,7 @@ export default function ActiveLoansTable({ loans }: ActiveLoansTableProps) {
                                     </span>
                                 </td>
                                 <td className="px-6 py-4 text-red-500 font-medium">
-                                    {loan.fine_amount > 0 ? `$${loan.fine_amount}` : '-'}
+                                    {loan.fine_amount > 0 ? `₹${loan.fine_amount}` : '-'}
                                 </td>
                                 <td className="px-6 py-4">
                                     <button className="text-blue-600 hover:text-blue-800 font-medium text-xs">Return</button>

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import React from 'react';
 import Sidebar from '@/components/Sidebar';
 import DashboardStatCard from '@/components/DashboardStatCard';
@@ -40,9 +40,9 @@ export default function Home() {
                     />
                     <DashboardStatCard
                         title="Total Fines"
-                        value={`$${stats.totalFines.toFixed(2)}`}
+                        value={`₹${stats.totalFines.toFixed(2)}`}
                         icon={<span className="text-2xl">⚠️</span>}
-                        trend="+ $2.50 this week"
+                        trend="+ ₹2.50 this week"
                         color="bg-red-50 border-red-100"
                     />
                     <DashboardStatCard
