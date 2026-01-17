@@ -1,0 +1,22 @@
+# Library Management System (LMS) Task List
+
+- [x] Project Setup & Initialization <!-- id: 0 -->
+    - [x] Create project directory and initialize repositories <!-- id: 1 -->
+    - [x] Setup Node.js/Express backend structure <!-- id: 2 -->
+    - [x] Setup Next.js frontend structure <!-- id: 3 -->
+- [ ] Database Design & Schema <!-- id: 4 -->
+    - [x] Design ER Diagram and document in Implementation Plan <!-- id: 5 -->
+    - [x] Write SQL DDL scripts (Users, Books, Transactions, Social, Gamification) <!-- id: 6 -->
+    - [ ] Write complex SQL queries for Recommendation Engine <!-- id: 7 -->
+- [ ] Backend Development <!-- id: 8 -->
+    - [x] Implement Auth API (Login/Register/Roles) <!-- id: 9 -->
+    - [x] Implement Dashboard API (Active Loans, Fines, Calculations) <!-- id: 10 -->
+    - [ ] Implement Book Club & Discussion API <!-- id: 11 -->
+    - [ ] Implement Recommendation Logic API <!-- id: 12 -->
+- [ ] Frontend Development <!-- id: 13 -->
+    - [x] Build User Dashboard (Loans, Fines, Countdown) <!-- id: 14 -->
+    - [ ] Build Community/Club Pages <!-- id: 15 -->
+    - [ ] Integrate Recommendation & Rating Components <!-- id: 16 -->
+- [ ] Verification & Documentation <!-- id: 17 -->
+    - [ ] Verify core workflows (Borrowing, Returning, Posting) <!-- id: 18 -->
+    - [ ] Finalize API and Schema documentation <!-- id: 19 -->
