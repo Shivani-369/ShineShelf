@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 import React from 'react';
 import Sidebar from '@/components/Sidebar';
 import DashboardStatCard from '@/components/DashboardStatCard';
@@ -18,15 +18,15 @@ export default function Home() {
     ];
 
     return (
-        <div className="min-h-screen bg-gray-50 flex">
+        <div className="min-h-screen bg-neutral-950 flex">
             <Sidebar />
             <main className="flex-1 ml-64 p-8">
                 <header className="mb-8 flex justify-between items-center">
                     <div>
-                        <h1 className="text-2xl font-bold text-gray-900">Dashboard</h1>
-                        <p className="text-gray-500">Welcome back, happy reading!</p>
+                        <h1 className="text-2xl text-white/90 font-bold text-white">Dashboard</h1>
+                        <p className="text-neutral-400">Welcome back, happy reading!</p>
                     </div>
-                    <button className="bg-indigo-600 text-white px-4 py-2 rounded-lg shadow-sm hover:bg-indigo-700 transition">
+                    <button className="bg-blue-900 text-white px-4 py-2 rounded-lg shadow-sm hover:bg-blue-950 transition">
                         Browse Books
                     </button>
                 </header>
@@ -35,27 +35,27 @@ export default function Home() {
                     <DashboardStatCard
                         title="Active Loans"
                         value={stats.activeLoans}
-                        icon={<span className="text-2xl">📚</span>}
-                        color="bg-blue-50 border-blue-100"
+                        icon={<span className="text-2xl text-white/90">📚</span>}
+                        color="bg-blue-600 text-white shadow-lg border-blue-500"
                     />
                     <DashboardStatCard
                         title="Total Fines"
                         value={`₹${stats.totalFines.toFixed(2)}`}
-                        icon={<span className="text-2xl">⚠️</span>}
+                        icon={<span className="text-2xl text-white/90">⚠️</span>}
                         trend="+ ₹2.50 this week"
-                        color="bg-red-50 border-red-100"
+                        color="bg-red-600 text-white shadow-lg border-red-500"
                     />
                     <DashboardStatCard
                         title="Books Read"
                         value="12"
-                        icon={<span className="text-2xl">✅</span>}
-                        color="bg-green-50 border-green-100"
+                        icon={<span className="text-2xl text-white/90">✅</span>}
+                        color="bg-sky-500 text-white shadow-lg border-sky-400"
                     />
                     <DashboardStatCard
                         title="Badges Earned"
                         value="5"
-                        icon={<span className="text-2xl">🏆</span>}
-                        color="bg-yellow-50 border-yellow-100"
+                        icon={<span className="text-2xl text-white/90">🏆</span>}
+                        color="bg-neutral-800 text-white shadow-lg border-neutral-700"
                     />
                 </section>
 
