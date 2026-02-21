@@ -1,0 +1,31 @@
+- [x] Project Setup & Initialization <!-- id: 0 -->
+    - [x] Create project directory and initialize repositories <!-- id: 1 -->
+    - [x] Setup Node.js/Express backend structure <!-- id: 2 -->
+    - [x] Setup Next.js frontend structure <!-- id: 3 -->
+- [x] Database Design & Schema <!-- id: 4 -->
+    - [x] Design ER Diagram and document in Implementation Plan <!-- id: 5 -->
+    - [x] Database Transition (SQLite for Zero-Config) <!-- id: 24 -->
+    - [x] Refactor db.js for SQLite <!-- id: 25 -->
+    - [x] Generate book cover assets <!-- id: 28 -->
+    - [x] Update seed script for SQLite <!-- id: 26 -->
+- [x] Backend Development <!-- id: 8 -->
+    - [x] Implement Auth API (Login/Register/Roles) <!-- id: 9 -->
+    - [x] Implement Dashboard API (Active Loans, Fines, Calculations) <!-- id: 10 -->
+    - [x] Implement robust Transaction API (Borrow, Return) <!-- id: 20 -->
+    - [x] Implement Books List API <!-- id: 29 -->
+    - [x] Implement Book Club & Discussion API <!-- id: 11 -->
+    - [x] Implement Recommendation Logic API <!-- id: 12 -->
+    - [x] Refactor init-db.js for PostgreSQL and sequential startup <!-- id: 31 -->
+- [x] Frontend Development <!-- id: 13 -->
+    - [x] Build Login Page <!-- id: 21 -->
+    - [x] Build Signup Page <!-- id: 23 -->
+    - [x] Sync Books Catalogue with Real API <!-- id: 30 -->
+    - [x] Fix "use client" build error in Clubs page <!-- id: 32 -->
+    - [x] Build User Dashboard (Loans, Fines, Countdown) <!-- id: 14 -->
+    - [x] Integrate Book Transactions (Borrow/Return UI) <!-- id: 22 -->
+    - [x] Build Community/Club Pages <!-- id: 15 -->
+    - [x] Implement Recommendation UI <!-- id: 16 -->
+- [x] Verification & Documentation <!-- id: 17 -->
+    - [x] Polish Visual Aesthetics & Dark Mode <!-- id: 17 -->
+    - [x] Verify core workflows (Login, Borrowing, Returning) <!-- id: 18 -->
+    - [x] Finalize API and Schema documentation <!-- id: 19 -->
