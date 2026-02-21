@@ -76,14 +76,9 @@ export default function Home() {
         <div className="min-h-screen bg-neutral-950 flex">
             <Sidebar />
             <main className="flex-1 ml-64 p-8">
-                <header className="mb-8 flex justify-between items-center">
-                    <div>
-                        <h1 className="text-2xl text-white/90 font-bold text-white">Dashboard</h1>
-                        <p className="text-neutral-400">Welcome back, happy reading!</p>
-                    </div>
-                    <button className="bg-blue-900 text-white px-4 py-2 rounded-lg shadow-sm hover:bg-blue-950 transition">
-                        Browse Books
-                    </button>
+                <header className="mb-8">
+                    <h1 className="text-2xl text-white/90 font-bold text-white">Dashboard</h1>
+                    <p className="text-neutral-400">Welcome back, happy reading!</p>
                 </header>
 
                 <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
